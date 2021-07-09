@@ -1,0 +1,192 @@
+.title h2 {
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 82px;
+}
+
+.hr {
+  height: 5px;
+  width: 89px;
+  background: black;
+  margin: 26px auto 26px;
+  opacity: .4;
+  border-radius: 2px;
+}
+
+.img {
+  height: 50px;
+  width: 50px;
+  background: grey;
+}
+
+.header {
+  padding: 60px 195px 147px;
+  background: purple;
+  color: white;
+}
+
+.header p {
+  font-size: 30px;
+  margin: 64px;
+  color: white;
+}
+
+.header li {
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.active {
+  background: rgb(100, 58, 121);
+  padding: 11px 18px;
+}
+
+h1 {
+  font-size: 46px;
+  font-weight: 800;
+}
+
+.header button {
+  font-size: 25px;
+  background: orange;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  border-bottom: 4px solid rgb(200, 106, 64);
+  text-transform: uppercase;
+  padding: 30px 83px;
+}
+
+.header button:active {
+  border: none;
+  border-top: 4px solid rgb(200, 106, 64);
+}
+
+.block {
+  padding: 121px 201px 132px;
+}
+
+.team {
+  background: rgb(231, 241, 248)
+}
+.team h3{
+  font-size: 25px;
+  padding: 38px;
+}
+.team em{
+  color: rgb(72, 193, 233);
+  font-size: 18px;
+  display: inline-block;
+  padding: 32px;
+}
+
+.team .img {
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+}
+.team .cart{
+  text-align: center;
+
+}
+.team .img{
+  text-align: center;
+  margin: auto;
+}
+.skills .img{
+  border-radius: 75px;
+}
+.p_sk{
+  font-size: 20px;
+}
+
+.servixes {
+  background: rgb(23, 194, 164);
+  color: white;
+}
+
+.portfolio {
+  background: rgb(255, 221, 153)
+}
+.portfolio .img{
+  height: 242px;
+  width: 309px;
+}
+.portfolio button{
+border: none;
+}
+.servixes .img{
+  text-align: center;
+  margin: auto;
+}
+.servixes .cart{
+  text-align: center;
+
+}
+
+.p_pr{
+  font-size: 25px;
+
+}
+.button_pr{
+  background: rgb(235, 201, 133);
+}
+.portfolio button{
+  padding: 12px 27px;
+}
+
+.about_us {
+  background: rgb(215, 70, 128);
+  color: white;
+
+}
+.about_us .img{
+  border-radius: 75px;
+
+}
+.about_us e{
+  color: rgb(235, 201, 133);
+  font-size: 20px;
+}
+.p_ab{
+  font-size: 25px;
+}
+
+li {
+  display: inline-block;
+  text-align: end;
+  margin: 24px;
+}
+
+.navigation {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+
+.text {
+  text-align: center;
+}
+
+.about_us .cart{
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+.cart_list_to4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.cart_list_porttofilio {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about_us .cart_list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
